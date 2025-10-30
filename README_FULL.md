@@ -1535,8 +1535,8 @@ project/
 ---
 
 **Last Updated**: October 2024  
-**Author**: [Your Name]  
-**Contact**: [Your Email]
+**Author**: Ayeh Bolouki 
+**Contact**: ayehgeek@gmail.com
 
 ---
 
