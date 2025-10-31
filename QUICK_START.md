@@ -1,6 +1,6 @@
 # Quick Start Guide - MS/MS PLS-DA Analysis
 
-## ⚡ 5-Minute Start
+##  5-Minute Start
 
 ### Step 1: Install Packages (2 minutes)
 
@@ -82,14 +82,14 @@ ggplot(plsda_scores, aes(x = X1, y = X2, color = Condition)) +
 ## 📊 What You Get
 
 After running the script:
-- ✅ PLS-DA scores plot (saved as PNG)
-- ✅ Cross-validated accuracy
-- ✅ Top 20 discriminant features (VIP scores)
-- ✅ Sample predictions
+-  PLS-DA scores plot (saved as PNG)
+-  Cross-validated accuracy
+-  Top 20 discriminant features (VIP scores)
+-  Sample predictions
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 **Error: "cannot find function 'plsda'"**
 ```r
@@ -115,7 +115,7 @@ library(mixOmics)
 
 ---
 
-## 📖 Next Steps
+##  Next Steps
 
 1. **For comprehensive analysis**: Use `MSMS_PLSDA_Analysis.R`
 2. **Need to format data?**: See `Data_Format_Guide.R`
@@ -123,7 +123,7 @@ library(mixOmics)
 
 ---
 
-## 💡 Tips
+##  Tips
 
 - **Start with 2 components** (ncomp = 2) - easiest to visualize
 - **Use leave-one-out CV** for small samples (n<30)
@@ -133,7 +133,7 @@ library(mixOmics)
 
 ---
 
-## 🎯 Common Use Cases
+##  Common Use Cases
 
 **Comparing two conditions** (e.g., Disease vs Healthy)
 ```r
@@ -162,7 +162,7 @@ plsda_result <- plsda(msms_t, annotation$Condition, ncomp = 1)
 
 ---
 
-## 📞 Need Help?
+##  Need Help?
 
 1. Check [Troubleshooting section](README.md#troubleshooting)
 2. Read [FAQ](README.md#faq) 
@@ -171,5 +171,5 @@ plsda_result <- plsda(msms_t, annotation$Condition, ncomp = 1)
 
 ---
 
-**Good luck with your analysis!** 🔬📊
+**Good luck with your analysis!**
 **lets make free science for everybody around the world.
