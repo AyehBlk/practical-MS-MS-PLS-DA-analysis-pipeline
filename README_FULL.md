@@ -1,6 +1,6 @@
 # MS/MS Data Analysis with PLS-DA in R
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [What is PLS-DA?](#what-is-pls-da)
 - [Why Use PLS-DA for MS/MS Data?](#why-use-pls-da-for-msms-data)
