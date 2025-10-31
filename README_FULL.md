@@ -22,7 +22,7 @@
 
 This repository contains R scripts for performing **Partial Least Squares Discriminant Analysis (PLS-DA)** on MS/MS (tandem mass spectrometry) data. The analysis is specifically optimized for small sample sizes (e.g., 10 samples in 2 conditions) and produces publication-quality visualizations similar to PCA plots but with supervised classification.
 
-### 📁 Files Included
+### Files Included
 
 1. **MSMS_PLSDA_Analysis.R** - Comprehensive analysis pipeline (recommended)
 2. **MSMS_PLSDA_QuickStart.R** - Minimal quick-start script
@@ -82,11 +82,11 @@ Mass spectrometry data has unique properties that make PLS-DA particularly suita
 
 ### PLS-DA Advantages for MS/MS
 
-✅ **Handles high-dimensional data** - Works well with features >> samples  
-✅ **Robust to noise** - Focuses on discriminant patterns  
-✅ **Feature selection** - VIP scores identify important biomarkers  
-✅ **Visual interpretation** - Easy-to-understand plots  
-✅ **Classification performance** - Can predict sample class  
+ **Handles high-dimensional data** - Works well with features >> samples  
+ **Robust to noise** - Focuses on discriminant patterns  
+ **Feature selection** - VIP scores identify important biomarkers  
+ **Visual interpretation** - Easy-to-understand plots  
+ **Classification performance** - Can predict sample class  
 
 ---
 
@@ -502,7 +502,7 @@ After running the analysis, you'll have:
    - Interactive 3D plot
    - Open in web browser
 
-#### 📁 Data Files
+#### Data Files
 
 1. **MSMS_PLSDA_scores.csv**
    - Component scores for each sample
@@ -540,10 +540,10 @@ After running the analysis, you'll have:
             ●●●●●●●●●
 ```
 **Indicators of good separation**:
-- ✅ Clear clusters for each condition
-- ✅ Minimal overlap between ellipses
-- ✅ Accuracy > 80%
-- ✅ PC1 captures most variance
+-  Clear clusters for each condition
+-  Minimal overlap between ellipses
+-  Accuracy > 80%
+-  PC1 captures most variance
 
 #### Poor Separation Example
 ```
@@ -555,10 +555,10 @@ After running the analysis, you'll have:
     (Mixed clusters)
 ```
 **Indicators of poor separation**:
-- ❌ Overlapping clusters
-- ❌ Accuracy < 60%
-- ❌ No clear pattern
-- ❌ Possible confounding factors
+-  Overlapping clusters
+-  Accuracy < 60%
+-  No clear pattern
+-  Possible confounding factors
 
 ### 2. Classification Accuracy
 
@@ -704,10 +704,10 @@ n_features <- min(500, nrow(msms_data))
 #### 4. Report Uncertainty
 
 Always report:
-- ✅ Cross-validation accuracy
-- ✅ Standard error (if available)
-- ✅ Confidence intervals
-- ✅ Sample size per group
+-  Cross-validation accuracy
+-  Standard error (if available)
+-  Confidence intervals
+-  Sample size per group
 
 #### 5. Validate Results
 
