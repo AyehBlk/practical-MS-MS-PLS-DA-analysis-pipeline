@@ -262,7 +262,7 @@ Biology 13(11): e1005752.
 **This repository:**
 ```
 Ayeh Bolouki (2025). PLS-DA Analysis Pipeline for MS/MS Data. 
-GitHub: https://github.com/[your-username]/MSMS-PLSDA-Analysis
+GitHub: https://github.com/[AyehBlk]/MSMS-PLSDA-Analysis
 ```
 
 ---
@@ -333,6 +333,5 @@ If you find this useful, please consider giving it a star! It helps others disco
 
 ---
 
-**Last Updated**: October 2024  
-**Version**: 1.0.0  
+**Last Updated**: October 2024 
 **Status**: Active Development
